@@ -1,0 +1,4 @@
+# uv workspace root for the Carboplatin Sensing platform.
+# The backend is a Python workspace member; the frontend is managed by npm.
+[tool.uv.workspace]
+members = ["backend"]

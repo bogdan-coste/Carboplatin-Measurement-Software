@@ -1,0 +1,26 @@
+[project]
+name = "software-solution"
+version = "0.1.0"
+description = "FastAPI service for carboplatin concentration prediction from voltammetry data"
+readme = "README.md"
+authors = [
+    { name = "bogdancoste", email = "bogdancoste432@gmail.com" }
+]
+requires-python = ">=3.15"
+dependencies = [
+    "fastapi>=0.100.0",
+    "uvicorn[standard]>=0.22.0",
+    "python-multipart>=0.0.6",
+    "pandas>=1.5.0",
+    "numpy>=1.22.0",
+    "matplotlib>=3.5.0",
+]
+
+[project.scripts]
+software-solution = "software_solution:main"
+start = "software_solution.dev:main"
+dev = "software_solution.dev:main"
+
+[build-system]
+requires = ["uv_build>=0.13.1,<0.14.0"]
+build-backend = "uv_build"
