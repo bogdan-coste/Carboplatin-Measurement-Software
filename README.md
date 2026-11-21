@@ -29,8 +29,6 @@ software-solution/
 │   ├── package.json
 │   ├── public/
 │   └── src/
-├── pinn_cv_implementare/
-│   └── pinn_model.ipynb
 ├── data/
 │   ├── dataset_carboplatin_150_reale.csv
 │   ├── sample_voltammetry.csv
@@ -109,6 +107,5 @@ detects the CNN environment automatically; see the
 - [Backend setup and API](backend/README.md)
 - [Frontend setup and usage](frontend/README.md)
 - [CNN-Transformer implementation](cnn_transformer_implementare/README.md)
-- [PINN-CV notebook](pinn_cv_implementare/pinn_model.ipynb)
 - [EDA notebook](eda.ipynb)
 - [Technical report](../documentation/technical_report.pdf)
